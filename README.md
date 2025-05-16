@@ -29,7 +29,7 @@ Este repositório contém o código para um chatbot desenvolvido como parte de u
 3.  Instale as dependências:
 
     ```bash
-    pip install python-dotenv google-generativeai
+    pip install -r requirements.txt
     ```
 
 4.  Crie um arquivo `.env` na raiz do projeto e adicione sua chave de API:
@@ -53,9 +53,10 @@ chatbot-alura-gemini/
 
 1. Execute o arquivo main.py:
 
-    - Bash
+    ```Bash
 
-    - python main.py
+     python main.py
+     ```
 
 - O chatbot responderá às suas perguntas, tentando ser engraçado (ou não).
 
